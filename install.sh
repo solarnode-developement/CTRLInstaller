@@ -221,6 +221,7 @@ case "$OS" in
       [ "$OS_VER_MAJOR" == "9" ] && SUPPORTED=true
       [ "$OS_VER_MAJOR" == "10" ] && SUPPORTED=true
       [ "$OS_VER_MAJOR" == "11" ] && SUPPORTED=true
+      [ "$OS_VER_MAJOR" == "12" ] && SUPPORTED=true
     ;;
     ubuntu)
       PHP_SOCKET="/run/php/php8.1-fpm.sock"
